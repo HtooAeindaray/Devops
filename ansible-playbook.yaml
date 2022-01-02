@@ -61,7 +61,7 @@
       record: demo
       type: A
       value: "{{ public_ip.stdout }}"
-      account_email: waiyanwinhtain224@gmail.com
+      account_email: "{{ email }}"
       account_api_key: "{{ API_TOKEN }}"
     register: record
 
