@@ -1,0 +1,12 @@
+[webserver]
+web     ansible_host=159.223.64.147
+
+[demo]
+demo1     ansible_host=167.71.212.115
+demo2     ansible_host=159.223.92.11
+
+[webserver:vars]
+ansible_user = root
+
+[demo:vars]
+ansible_user = root
